@@ -3,14 +3,14 @@ const uuid = require("uuid/v4");
 const users = [
   {
     id: "a5c48c89-8d11-4299-80bc-ee4e292788c3",
-    email: "tim@example.com",
+    email: "test1@example.com",
     password: "123", // NOTE never store a password in plain text
     role: "user",
     cart: {}
   },
   {
     id: "a36789ea-328e-495d-ae3e-58a080270dfd",
-    email: "anna@example.com",
+    email: "test2@example.com",
     password: "123", // NOTE never store a password in plain text
     role: "admin",
     cart: {}
